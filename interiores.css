@@ -1,0 +1,243 @@
+body {background-image: linear-gradient(
+    100deg,
+    rgba(250, 250, 250, 0.9),
+    rgba(230, 230, 230, 0.9)
+  ),
+    url(fondos/nieve.jpg);
+    }
+/*START NAV*/
+
+#navbar {
+    background-image: linear-gradient(
+        100deg,
+        rgba(45, 134, 45, 0.9),
+        rgba(32, 96, 32, 0.9)
+      ),
+        url(fondos/bosque.jpg);
+    width:100%;
+    top:0px;
+    overflow:hidden;
+    display: grid;
+    grid-template-columns: repeat (9, auto) ;
+    grid-template-rows: 100px 50px ;
+    grid-template-areas:    "logohuahum . . logotxt logotxt . . . ."
+                            "quienes-somos tour metodo-construccion materiales fotos interiores precios ubicacion contacto";
+}
+
+  .nav-link{
+    text-decoration:none;
+      text-align:center;
+      color:white;
+      float:right;
+      
+      transition: background .5s ease, color .5s ease;
+      font-size:15px;
+      border-top: 1px solid black;
+      padding-top:20px;
+      font-family: 'Montserrat', sans-serif;
+      
+    
+  }
+
+  .nav-link:hover{
+    border-top: solid #ff9966;
+    text-decoration: underline;
+    color: #ff9966;
+  }
+
+#socialmedia {
+    grid-area:socialmedia;
+    margin-right:auto;
+    padding-right:40px;
+    padding-bottom:20px;
+    float:right;
+}
+
+.btn_contact {
+    color:black;
+    justify-self: end;
+}
+
+#logohuahum{
+    width:150px;
+    grid-area: logohuahum;
+}
+#logo-txt{
+    grid-area: logotxt;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color:black;
+
+}
+#quienes-somos{
+    grid-area: quienes-somos;
+}
+
+#metodo-construccion {
+    grid-area: metodo-construccion;
+}
+#interiores {
+    grid-area: interiores;
+}
+#ubicacion {
+    grid-area: ubicacion;
+}
+#contacto {
+    grid-area: contacto;
+}
+#fotos {
+    grid-area: fotos;
+}
+#materiales {
+    grid-area: materiales;
+}
+#tour {
+    grid-area: tour
+}
+#precios {
+    grid-area: precios
+}
+  /*END NAV*/
+
+
+/*START WELCOME SECTION*/
+
+
+/*START PROJECT SECTION*/
+
+#proyectos {
+    
+    text-align: center;
+}
+
+#head-proyectos {
+    font-family: 'Playfair Display', serif;
+    font-size:36px;
+}
+
+/*END PROJECT SECTION*/
+
+/*START INFO SECTION*/
+
+#info {
+    background-image: url(fondos/mooning.png);
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#infotxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:50px;
+    
+}
+
+.artesania {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#artesania-txt {
+    font-family: 'Playfair Display', serif;
+    font-size:36px;
+    margin-bottom:-20px;
+    font-weight: bold;
+    text-decoration:underline;
+    border-bottom: 3px solid #000;
+}
+
+#artesania-para {
+    margin-top:30px;
+    text-align: left;
+}
+
+#artesania-img1 {
+    background-image: url(interiores/IMG_3489.jpg);
+    background-size:500px;
+    width:500px;
+    height:375px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
+}
+
+#artesania-img2 {
+    background-image: url(interiores/IMG_3492.jpg);
+    background-size:500px;
+    width:500px;
+    height:375px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
+}
+#artesania-img3 {
+    background-image: url(interiores/IMG_3505.jpg);
+    background-size:500px;
+    width:500px;
+    height:375px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
+}
+#artesania-img4 {
+    background-image: url(interiores/IMG_3537.jpg);
+    background-size:500px;
+    width:500px;
+    height:375px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
+}
+#artesania-img5 {
+    background-image: url(interiores/IMG_3528.jpg);
+    background-size:500px;
+    width:500px;
+    height:375px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
+}
+#artesania-img6 {
+    background-image: url(interiores/IMG_3538.jpg);
+    background-size:500px;
+    width:500px;
+    height:375px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
+}
+
+#underline {
+    width:480px;
+    margin:0px;
+}
+
+/*END INFO SECTION*/
+
+/*START CONTACT SECTION*/
+
+#footer {
+    background-image: linear-gradient(to bottom,rgba(45, 134, 45),
+    rgba(32, 96, 32));
+    width:100%;
+    bottom:0px;
+    overflow:hidden;
+    text-align: center;
+}
+
+#subfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-lists {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    
+}
+
+.footer-txt {
+    text-decoration: none;
+    color:white;
+}
+/*END CONTACT SECTION*/
+
+
