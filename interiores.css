@@ -17,11 +17,16 @@ body {background-image: linear-gradient(
     width:100%;
     top:0px;
     overflow:hidden;
+}
+.navbar-hd {
     display: grid;
-    grid-template-columns: repeat (9, auto) ;
-    grid-template-rows: 100px 50px ;
-    grid-template-areas:    "logohuahum . . logotxt logotxt . . . ."
-                            "quienes-somos tour metodo-construccion materiales fotos interiores precios ubicacion contacto";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:    "logohuahum logotxt ."
+}
+.navbar-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:    "quienes-somos construccion interiores ubicacion contacto"
 }
 
   .nav-link{
@@ -75,7 +80,7 @@ body {background-image: linear-gradient(
 }
 
 #metodo-construccion {
-    grid-area: metodo-construccion;
+    grid-area: construccion;
 }
 #interiores {
     grid-area: interiores;
