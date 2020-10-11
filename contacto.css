@@ -111,110 +111,29 @@ body {background-image: linear-gradient(
 
 /*START PROJECT SECTION*/
 
-#proyectos {
-    
+#contactenos {
+    margin: 20px;
     text-align: center;
 }
 
-#head-proyectos {
+#head-contacto {
     font-family: 'Playfair Display', serif;
     font-size:36px;
+}
+
+form {
+    background-image: url(fondos/mooning.png);
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 50px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+
 }
 
 /*END PROJECT SECTION*/
-
-/*START INFO SECTION*/
-
-#info {
-    background-image: url(fondos/mooning.png);
-    width:100%;
-    padding-top:20px;
-    padding-bottom:20px;
-    margin-top:10px;
-    margin-bottom:10px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-
-#infotxt {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top:50px;
-    
-}
-
-.artesania {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-}
-
-#artesania-txt {
-    font-family: 'Playfair Display', serif;
-    font-size:36px;
-    margin-bottom:-20px;
-    font-weight: bold;
-    text-decoration:underline;
-    border-bottom: 3px solid #000;
-}
-
-#artesania-para {
-    margin-top:30px;
-    text-align: left;
-}
-
-#artesania-img1 {
-    background-image: url(interiores/IMG_3489.jpg);
-    background-size:500px;
-    width:500px;
-    height:375px;
-    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
-}
-
-#artesania-img2 {
-    background-image: url(interiores/IMG_3492.jpg);
-    background-size:500px;
-    width:500px;
-    height:375px;
-    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
-}
-#artesania-img3 {
-    background-image: url(interiores/IMG_3505.jpg);
-    background-size:500px;
-    width:500px;
-    height:375px;
-    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
-}
-#artesania-img4 {
-    background-image: url(interiores/IMG_3537.jpg);
-    background-size:500px;
-    width:500px;
-    height:375px;
-    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
-}
-#artesania-img5 {
-    background-image: url(interiores/IMG_3528.jpg);
-    background-size:500px;
-    width:500px;
-    height:375px;
-    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
-}
-#artesania-img6 {
-    background-image: url(interiores/IMG_3538.jpg);
-    background-size:500px;
-    width:500px;
-    height:375px;
-    box-shadow: 0px 0px 10px 10px #f2f2f2 inset;
-}
-
-#underline {
-    width:480px;
-    margin:0px;
-}
-
-/*END INFO SECTION*/
 
 /*START CONTACT SECTION*/
 
